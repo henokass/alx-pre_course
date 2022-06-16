@@ -1,52 +1,45 @@
-# Prerequisites
-*.d
+# -*- mode: gitignore; -*-
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+# Org-mode
+.org-id-locations
+*_archive
 
-# Linker output
-*.ilk
-*.map
-*.exp
+# flymake-mode
+*_flymake.*
 
-# Precompiled Headers
-*.gch
-*.pch
+# eshell files
+/eshell/history
+/eshell/lastdir
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
+# elpa packages
+/elpa/
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
+# reftex files
+*.rel
 
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
+# AUCTeX auto folder
+/auto/
 
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
+# cask packages
+.cask/
+dist/
 
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# Flycheck
+flycheck_*.el
+
+# server auth directory
+/server/
+
+# projectiles files
+.projectile
+
+# directory configuration
+.dir-locals.el
